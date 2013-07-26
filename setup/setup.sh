@@ -4,6 +4,8 @@
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
+git config --global user.name mandrychowicz
+git config --global user.email marcin.andrychowicz@gmail.com
 sudo apt-get install update
 sudo apt-get install -y python-software-properties python g++ make
 sudo apt-get-repository ppa:chris-lea/node.js
