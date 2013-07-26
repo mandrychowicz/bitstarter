@@ -4,6 +4,12 @@
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
+sudo apt-get install update
+sudo apt-get install -y python-software-properties python g++ make
+sudo apt-get-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install -y nodejs
+npm install express
 sudo apt-get install -y git
 sudo apt-get install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
